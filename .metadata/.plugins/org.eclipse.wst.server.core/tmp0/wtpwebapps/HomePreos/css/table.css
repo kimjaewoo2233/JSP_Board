@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body { background: #fff;
+		
+ }
+
+.tableC {
+  border-collapse: collapse;
+}  
+.tableC th {
+  padding: 10px;
+  color: #168;
+  border-bottom: 3px solid #168;
+  text-align: center;
+}
+.tableC td {
+  color: #669;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.tableC tr:hover td {
+  color: #004;
+  background-color:#46D2D2;
+	cursor:pointer;
+}
+.ta{
+	text-align:center;
+}
+
+.btn {
+  position:relative;
+  left:40%;
+  transform: translateX(-100%);
+  margin-top:50px;
+  margin-bottom: 40px;
+  width:40%;
+  height:40px;
+  background: linear-gradient(125deg,#81ecec,rgb(28, 99, 115),#81ecec);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+}
+.btn:hover {
+  background-position: right;
+}

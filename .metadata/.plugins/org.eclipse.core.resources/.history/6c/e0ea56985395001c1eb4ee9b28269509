@@ -1,0 +1,151 @@
+@charset "EUC-KR";
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333;
+}
+.loginForm {
+  position:absolute;
+  width:300px;
+  height:400px;
+  padding: 30px, 20px;
+  background-color:#FFFFFF;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+  position:absolute;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin: 30px;
+}
+.loginForm2{
+	 text-align: center;
+	  margin: 30px;
+	   width:300px;
+  height:400px;
+   position: relative;
+    top: 355px;
+  left: 195px;
+}
+
+.idForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.passForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.id {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.pw {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.btn {
+  position:relative;
+  left:40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:80%;
+  height:40px;
+  background: linear-gradient(125deg,#81ecec,rgb(0, 128, 64),#81ecec);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.bottomText {
+  text-align: center;
+}
+
+/* HEADER */
+header{
+}
+header .inner{  /*inner은 확대 축소에 가운대로 이동시킬 수 있다*/
+    width: 1100px;
+    margin:0 auto;
+    height: 120px;
+    background-color:orange;
+    position: relative;
+}
+header .logo{
+    height: 75px;
+    position:absolute;  /*부모 기준으로 위치를 맞춤*/
+    top : 0;
+    bottom:0;
+    left: 0;
+    margin : auto;
+}
+header .sub-menu ul.menu{
+    font-family: Arial,sans-serif;
+    display: flex;      /*수직으로*/
+
+}
+header .sub-menu ul.menu li{
+    position: relative;
+}
+header .sub-menu ul.menu li a{
+    font-size: 12px;
+    padding: 11px 16px;
+    display: block;
+    color:#656565;
+} 
+header .sub-menu ul.menu li::before{          /*가상요소*/
+    content:"";
+    display:block;
+    width: 1px;
+    height: 12px;
+    background-color:#e5e5e5;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin: auto 0;
+}
+header .sub-menu ul.menu li:first-child:before{ /*여러 li태그중 첫번쨰 li태그를 찾아서 첫번쨰 li태그의 가상 요소 선택자 before부분 */
+    display: none;
+}
+
+header .sub-menu ul.menu li a:hover{
+    color:#000;                             /*마우스를 올리면 반응 hover*/
+
+}

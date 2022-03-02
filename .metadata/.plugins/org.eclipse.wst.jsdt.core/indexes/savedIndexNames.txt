@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\ToyProject\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+600008183.index
+486351994.index
+2336392151.index
+3018489202.index
+36394893.index
+2424758633.index
+930238516.index
+600008183.index

@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\ToyProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\806208230.index
+\HomePreos\src\main\java
+C:\Users\82104\OneDrive\πŸ≈¡ »≠∏È\ToyProject\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\600008183.index
+\HomePreos\src\main\java
